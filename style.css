@@ -1,0 +1,96 @@
+/*
+Theme Name:     ACCFB
+Description:    ACCFB Child theme from Organic Portfolio
+Author:         <a href="http://www.tekpals.com">Ed Ehrgott</a> - Taproot
+Template:       organic_portfolio
+Version: 0.9
+
+*/
+
+@import url("../organic_portfolio/style.css");
+
+body {
+     font-family: "Cambria, Georgia, serif";
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+     font-family: "Cambria, Georgia, serif";
+}
+
+a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+     font-family: "Cambria, Georgia, serif";
+}
+
+.fix {
+     clear: both;
+}
+
+#header #title a {
+     width: 720px;
+     float: left;
+}
+
+#header #donate-now {
+     position: relative;
+     float: right;
+     top: 10px;
+}
+
+.homeboxinfo {
+     display: none;
+}
+
+.menu a, .menu a:visited {
+     color: #e0672b !important;
+}
+
+#home_articles {
+     clear: both;
+}
+
+#primary {
+     position: relative;
+     float: left;
+     diaplay: block;
+     background: #efefef;
+     width: 600px;
+     padding: 10px;
+     margin: 10px 10px 10px 0;
+     clear: both;
+}
+
+#primary a {
+     color: #ce4602;
+}
+
+#secondary {
+     position: relative;
+     float: left;
+     display: block;
+     background: #efefef;
+     width: 600px;
+     padding: 10px;
+     margin: 10px 10px 10px 0;
+     clear: both;
+}
+
+#secondary a {
+     color: #ce4602;
+}
+
+#home_sidebar {
+     position: absolute;
+     float: right;
+     right: 190px;
+     display: block;
+     background: #efefef;
+     width: 300px;
+     padding: 10px;
+     margin: 10px 10px 10px 0;
+     clear: both;
+     height: 430px;
+}
+
+#home_sidebar h4 {
+     color: #ce4602;
+}
