@@ -54,11 +54,13 @@ $secondary_tag= 'secondary';?>
 					  $post_class = 'first';
 					}
 				?>
-                        			
+                
+			 <?php $post_id = $wp_query->post->ID;
+			 $homebox_link = get_post_meta($post_id, "link", true); ?>        			
                 <?php if ( $video ) : ?>
               		<div class="home_video"><?php echo $video; ?></div>
 				<?php else: ?>
-                    <div class="home_img"><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_post_thumbnail( 'home-thumbnail' ); ?></a></div>
+                    <div class="home_img"><a href="<?php echo $homebox_link; ?>" rel="bookmark"><?php the_post_thumbnail( 'home-thumbnail' ); ?></a></div>
                 <?php endif; ?>
                 
                 <div class="homeboxinfo">

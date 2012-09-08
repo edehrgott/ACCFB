@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Komodo Project File - DO NOT EDIT -->
 <project id="088df85b-3c07-4740-a554-c4dc94f04117" kpf_version="5" name="ACCFB.komodoproject">
+<preference-set idref="088df85b-3c07-4740-a554-c4dc94f04117">
+  <string id="mappedPaths"></string>
+</preference-set>
 </project>

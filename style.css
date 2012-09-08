@@ -11,6 +11,7 @@ Version: 0.9
 
 body {
      font-family: "Cambria, Georgia, serif";
+     font-size: 14px;
 }
 
 p, h1, h2, h3, h4, h5, h6 {
@@ -36,12 +37,30 @@ a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
      top: 10px;
 }
 
+#header #orange-bar {
+     position: relative;
+     float: left;
+     display: block;
+     height: 30px;
+}
+
+#navbar {
+     display: block;
+     padding: 25px 0 0 0;
+}
+
 .homeboxinfo {
      display: none;
 }
 
 .menu a, .menu a:visited {
      color: #e0672b !important;
+}
+
+
+
+#content.home {
+     position: relative;
 }
 
 #home_articles {
@@ -81,14 +100,14 @@ a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 #home_sidebar {
      position: absolute;
      float: right;
-     right: 190px;
+     right: 0px;
      display: block;
      background: #efefef;
      width: 300px;
      padding: 10px;
      margin: 10px 10px 10px 0;
      clear: both;
-     height: 430px;
+     height: 455px;
 }
 
 #home_sidebar h4 {

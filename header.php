@@ -83,6 +83,10 @@
 	<div id="donate-now">
 		<a href="#"><img src='/assets/donatenow_button.jpg'></a>
 	</div>
+	<div id="orange-bar">
+		<img src='/assets/orangebar.gif'>
+	</div>
+	<div class="clear"></div>
 </div>
 
 <div id="navbar">
