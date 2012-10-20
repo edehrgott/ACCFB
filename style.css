@@ -22,6 +22,14 @@ a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
      font-family: "Cambria, Georgia, serif";
 }
 
+a, a:link, a:visited {
+     color: #E0672B !important;
+}
+
+a:hover, a:focus, a:active, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
+     color: #E0672B !important;
+}
+
 .fix {
      clear: both;
 }
@@ -44,20 +52,44 @@ a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
      height: 30px;
 }
 
+.homeboxinfo {
+     display: none;
+}
+
 #navbar {
      display: block;
      padding: 25px 0 0 0;
 }
 
-.homeboxinfo {
-     display: none;
+#navbar .menu .current_page_item a, #navbar .menu .current_page_ancestor a, #navbar .menu .current-menu-item a, #navbar .menu .current-cat a {
+     background: #E0672B;
+}
+
+#navbar .menu .current_page_item ul li a:hover, #navbar .menu .current-menu-item ul li a:hover, #navbar .menu .current-menu-ancestor ul li a:hover, #navbar .menu .current_page_ancestor ul li a:hover, #navbar .menu .current-menu-ancestor ul .current_page_item a, #navbar .menu .current_page_ancestor ul .current-menu-item a, #navbar .menu .current-cat ul li a:hover {
+     background: #E0672B;
 }
 
 .menu a, .menu a:visited {
      color: #e0672b !important;
+     font-size: 1.2em;
 }
 
+.menu a:hover {
+     color: #fff !important;
+}
 
+.menu li li a {
+     margin: 0px 2px 0px 0px;
+     padding: 0 0 0 10px;
+}
+
+.menu li li a:visited {
+     color: #666 !important;
+}
+
+.menu li li a:hover {
+     color: #fff !important;
+}
 
 #content.home {
      position: relative;

@@ -18,4 +18,21 @@ function accfb_register_home_sidebar() {
 
 add_action( 'widgets_init', 'accfb_register_home_sidebar' );
 
+function accfb_scripts() {
+	wp_enqueue_script( 'jquery' );
+	wp_enqueue_script( 'jquery-ui-core' );
+	wp_enqueue_script( 'jquery-ui-accordion' );
+	wp_register_script('accfb-local', get_stylesheet_directory_uri() . '/js/local.js' ); // added by ed for jquery ui accordion functions
+	wp_enqueue_script('accfb-local');
+	wp_register_style('accfb-jquery-ui-style', 'http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/smoothness/jquery-ui.css');  
+	wp_enqueue_style('accfb-jquery-ui-style');  
+  
+}    
+ 
+add_action('wp_enqueue_scripts', 'accfb_scripts'); // theme requires jquery ui accordion
+
+wp_register_style('wptuts-jquery-ui-style', 'http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.21/themes/south-street/jquery-ui.css');  
+    wp_enqueue_style('wptuts-jquery-ui-style');  
+  
+
 ?>
